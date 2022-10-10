@@ -1,5 +1,5 @@
 {
-  "name": "nest-solr",
+  "name": "nestjs-solr",
   "version": "1.0.0",
   "description": "Solr client for Nestjs",
   "main": "dist/index.js",
