@@ -16,6 +16,7 @@ export class SolrModule {
     return {
       module: SolrModule,
       providers: [{ provide: SOLR_MODULE_OPTIONS, useValue: options }],
+      exports: [{ provide: SOLR_MODULE_OPTIONS, useValue: options }],
     };
   }
 
@@ -24,6 +25,7 @@ export class SolrModule {
       module: SolrModule,
       imports: options.imports || [],
       providers: [...this.createAsyncProviders(options)],
+      exports: [...this.createAsyncProviders(options)],
     };
   }
 
