@@ -4,6 +4,8 @@
   "description": "Solr client for Nestjs",
   "main": "dist/index.js",
   "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc -p tsconfig.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
