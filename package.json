@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dkduyanh/nestjs-solr.git"
+    "url": "git+https://github.com/edeermachado/nestjs-solr.git"
   },
   "keywords": [
     "nestjs",
@@ -17,9 +17,9 @@
   "author": "dkduyanh",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dkduyanh/nestjs-solr/issues"
+    "url": "https://github.com/edeermachado/nestjs-solr/issues"
   },
-  "homepage": "https://github.com/dkduyanh/nestjs-solr#readme",
+  "homepage": "https://github.com/edeermachado/nestjs-solr#readme",
   "peerDependencies": {
     "@nestjs/common": "^9.1.4",
     "solr-client": "^0.10.0-rc10"

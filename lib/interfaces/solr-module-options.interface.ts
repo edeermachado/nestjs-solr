@@ -1,5 +1,5 @@
-import { SolrClientParams } from 'solr-client/dist/lib/types';
 import { ModuleMetadata, Type } from '@nestjs/common/interfaces';
+import { SolrClientParams } from 'solr-client/dist/lib/types';
 
 export type SolrModuleOptions = SolrClientParams;
 

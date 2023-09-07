@@ -1,11 +1,7 @@
 import { DynamicModule, Module, Provider } from '@nestjs/common';
+import { SolrModuleAsyncOptions, SolrModuleOptions, SolrOptionsFactory } from './interfaces';
 import { SOLR_MODULE_OPTIONS } from './solr.constants';
 import { SolrService } from './solr.service';
-import {
-  SolrModuleAsyncOptions,
-  SolrModuleOptions,
-  SolrOptionsFactory,
-} from './interfaces/solr-module-options.interface';
 
 @Module({
   providers: [SolrService],
